@@ -38,6 +38,7 @@ public class SeleniumDemo {
 
                 String title = firstProduct.getText();
                 String price = firstPrice.getText();
+                System.out.println();
                 System.out.println("Phone: " + title + ", price: " + price);
 
 
